@@ -1,0 +1,20 @@
+{
+  "name": "tractive-automation",
+  "version": "1.0.0",
+  "description": "Tractive Automation For Task by the Tractive Company",
+  "author": "Uzair",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:login": "playwright test --grep @login",  
+    "test:register": "playwright test --grep @register", 
+    "postinstall": "npx playwright install"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^9.0.3",
+    "@playwright/test": "^1.47.2",
+    "@types/node": "^22.7.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2"
+  }
+}
