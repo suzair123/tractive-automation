@@ -7,10 +7,6 @@ This project is designed for testing the login and registration functionalities 
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Running Tests](#running-tests)
-- [Folder Structure](#folder-structure)
-- [Git Ignore](#git-ignore)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Requirements
 
@@ -22,17 +18,17 @@ This project is designed for testing the login and registration functionalities 
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/your-repo-name.git
+   git clone https://github.com/suzair123/tractive-automation
 
 2. **Navigate to the project directory:**
    ```bash
-   cd your-repo-name
+   cd tractive-automation/
 
 3. **Install the dependencies:**
    ```bash
    npm install
 
-## Running the Tests
+## Running Tests
 You can run the tests using the following commands:
 
 1. **To run all tests:**
